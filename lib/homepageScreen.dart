@@ -37,16 +37,16 @@ class _HomepageScreenState extends State<HomepageScreen> {
                 fontSize: 28,
                 fontFamily: "Vonique",
                 fontWeight: FontWeight.bold,
-                color: Color(0xffFF0000),
+                //  color: Color(0xffFF0000),
                 //color: Color(0xffB22222),
-                //color: Color(0xff4B0082),
+                color: Color(0xff4B0082),
                 //color: Color(0xffFF4500),
               ),
             ),
           ),
           bottom: TabBar(
             // labelPadding: EdgeInsets.symmetric(horizontal: 20),
-            unselectedLabelColor: Color(0xffFF4500),
+            unselectedLabelColor: Colors.purple,
             //Colors.purple,
             // indicatorSize: ,
             indicator: BoxDecoration(
@@ -60,9 +60,9 @@ class _HomepageScreenState extends State<HomepageScreen> {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(50),
                     border: Border.all(
-                      color: Color(0xffB22222),
+                      // color: Color(0xffB22222),
                       // color: Color(0xffFF4500),
-                      // color: Color(0xff4B0082),
+                      color: Color(0xff4B0082),
                       width: 1,
                     ),
                   ),
@@ -85,9 +85,9 @@ class _HomepageScreenState extends State<HomepageScreen> {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(50),
                     border: Border.all(
-                      color: Color(0xffB22222),
+                      //color: Color(0xffB22222),
                       // color: Color(0xffFF4500),
-                      // color: Color(0xff4B0082),
+                      color: Color(0xff4B0082),
                       width: 1,
                     ),
                   ),
@@ -111,9 +111,9 @@ class _HomepageScreenState extends State<HomepageScreen> {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(50),
                     border: Border.all(
-                      color: Color(0xffB22222),
+                      //color: Color(0xffB22222),
                       // color: Color(0xffFF4500),
-                      // color: Color(0xff4B0082),
+                      color: Color(0xff4B0082),
                       width: 1,
                     ),
                   ),

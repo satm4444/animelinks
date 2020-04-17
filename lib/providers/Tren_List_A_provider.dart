@@ -16,7 +16,8 @@ class ListATiles with ChangeNotifier {
         id: "a2",
         subtitle: "Gear 5 when",
         title: "One Piece",
-        description: "My favourite anime",
+        description:
+            "One Piece is an adventure story that takes place in a world of five great seas, in the golden age of pirates. The golden age of pirates began with the execution of the pirate king, Gol D. Rogers.",
         imageURL:
             'https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Main_characters_of_One_Piece.png/265px-Main_characters_of_One_Piece.png'
         // 'https://images.hdqwalls.com/wallpapers/yato-noragami-anime-b2.jpg',

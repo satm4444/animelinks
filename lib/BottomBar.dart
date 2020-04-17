@@ -30,9 +30,13 @@ class _BottomBarState extends State<BottomBar> {
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         backgroundColor: Colors.black,
-        selectedItemColor: Color(0xffFF0000),
-        //Colors.deepPurple,
-        unselectedItemColor: Color(0xffB22222),
+        selectedItemColor:
+            //Color(0xffFF0000),
+            Color(0xff4B0082),
+        // Colors.deepPurple,
+        unselectedItemColor:
+            //Color(0xffB22222),
+            Colors.deepPurple,
         //Color(0xff4B0082),
         onTap: _selectedPage,
         currentIndex: _selectedPageIndex,
@@ -41,7 +45,7 @@ class _BottomBarState extends State<BottomBar> {
           BottomNavigationBarItem(
             icon: Icon(
               FontAwesomeIcons.home,
-              size: 18,
+              size: 19,
             ),
             title: SizedBox(),
             //  Text(
@@ -53,7 +57,7 @@ class _BottomBarState extends State<BottomBar> {
           BottomNavigationBarItem(
             icon: Icon(
               FontAwesomeIcons.solidHeart,
-              size: 18,
+              size: 18.5,
             ),
             title: SizedBox(),
             // Text(

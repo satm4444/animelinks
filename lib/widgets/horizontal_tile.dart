@@ -64,8 +64,8 @@ class HorizontalTile extends StatelessWidget {
                         child: Container(
                           height: 9,
                           width: 9,
-                          color: Color(0xffB22222),
-                          // color: Color(0xff4B0082),
+                          // color: Color(0xffB22222),
+                          color: Color(0xff4B0082),
                         ),
                       ),
                     ),

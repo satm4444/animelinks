@@ -32,8 +32,8 @@ class _TrendingPageState extends State<TrendingPage> {
                         child: Container(
                           height: 20,
                           width: 7,
-                          color: Color(0xffB22222),
-                          //color: Color(0xff4B0082),
+                          // color: Color(0xffB22222),
+                          color: Color(0xff4B0082),
                         ),
                       ),
                       Text(
@@ -50,8 +50,8 @@ class _TrendingPageState extends State<TrendingPage> {
                   Text(
                     "more",
                     style: TextStyle(
-                      color: Color(0xffB22222),
-                      //color: Color(0xff4B0082),
+                      //color: Color(0xffB22222),
+                      color: Color(0xff4B0082),
                       fontWeight: FontWeight.w500,
                     ),
                   ),
@@ -77,8 +77,8 @@ class _TrendingPageState extends State<TrendingPage> {
                         child: Container(
                           height: 20,
                           width: 7,
-                          color: Color(0xffB22222),
-                          // color: Color(0xff4B0082),
+                          //color: Color(0xffB22222),
+                          color: Color(0xff4B0082),
                         ),
                       ),
                       Text(
@@ -95,8 +95,8 @@ class _TrendingPageState extends State<TrendingPage> {
                   Text(
                     "more",
                     style: TextStyle(
-                      color: Color(0xffB22222),
-                      // color: Color(0xff4B0082),
+                      //color: Color(0xffB22222),
+                      color: Color(0xff4B0082),
                       fontWeight: FontWeight.w500,
                     ),
                   ),
@@ -121,8 +121,8 @@ class _TrendingPageState extends State<TrendingPage> {
                         child: Container(
                           height: 20,
                           width: 7,
-                          color: Color(0xffB22222),
-                          //color: Color(0xff4B0082),
+                          //color: Color(0xffB22222),
+                          color: Color(0xff4B0082),
                         ),
                       ),
                       Text(
@@ -139,8 +139,8 @@ class _TrendingPageState extends State<TrendingPage> {
                   Text(
                     "more",
                     style: TextStyle(
-                      color: Color(0xffB22222),
-                      // color: Color(0xff4B0082),
+                      //color: Color(0xffB22222),
+                      color: Color(0xff4B0082),
                       fontWeight: FontWeight.w500,
                     ),
                   ),
