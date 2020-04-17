@@ -1,3 +1,4 @@
+import 'package:animelink/Anime_Screen.dart';
 import 'package:animelink/models/Tiles.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -12,7 +13,7 @@ class HorizontalTile extends StatelessWidget {
         onTap: () {
           Navigator.pushNamed(
             context,
-            '/anime_screen',
+            AnimeScreen.routeName,
             arguments: {
               "title": fromModel.title,
               'desc': fromModel.description,
