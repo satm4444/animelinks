@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         color: Colors.black,
-        // debugShowCheckedModeBanner: false,
+        debugShowCheckedModeBanner: false,
         title: "AnimeLinkApp",
         theme: ThemeData(
           canvasColor: Colors.black,
