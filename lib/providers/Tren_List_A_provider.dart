@@ -5,7 +5,7 @@ class ListATiles with ChangeNotifier {
   List<Tiles> _items = [
     Tiles(
         id: "a1",
-        subtitle: "Getsuga",
+        subtitle: "Tite Kubo",
         title: "Bleach",
         description: "My favourite anime",
         imageURL:
@@ -14,7 +14,7 @@ class ListATiles with ChangeNotifier {
         ),
     Tiles(
         id: "a2",
-        subtitle: "Gear 5 when",
+        subtitle: "Eiichiro Oda",
         title: "One Piece",
         description:
             "One Piece is an adventure story that takes place in a world of five great seas, in the golden age of pirates. The golden age of pirates began with the execution of the pirate king, Gol D. Rogers.",

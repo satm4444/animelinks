@@ -39,8 +39,9 @@ class _TrendingPageState extends State<TrendingPage> {
                       Text(
                         "  Newest Anime",
                         style: TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w200,
+                          fontFamily: 'Roboto',
+                          fontSize: 21,
+                          fontWeight: FontWeight.bold,
                           //   fontFamily: "Vonique",
                           color: Colors.white,
                         ),
@@ -50,9 +51,11 @@ class _TrendingPageState extends State<TrendingPage> {
                   Text(
                     "more",
                     style: TextStyle(
+                      fontFamily: 'Roboto',
+                      fontSize: 16,
                       //color: Color(0xffB22222),
                       color: Color(0xff4B0082),
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ],
@@ -84,8 +87,10 @@ class _TrendingPageState extends State<TrendingPage> {
                       Text(
                         "  Recommended",
                         style: TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w200,
+                          fontFamily: 'Roboto',
+
+                          fontSize: 21,
+                          fontWeight: FontWeight.bold,
                           //   fontFamily: "Vonique",
                           color: Colors.white,
                         ),
@@ -95,9 +100,11 @@ class _TrendingPageState extends State<TrendingPage> {
                   Text(
                     "more",
                     style: TextStyle(
+                      fontFamily: 'Roboto',
+                      fontSize: 16,
                       //color: Color(0xffB22222),
                       color: Color(0xff4B0082),
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ],
@@ -128,8 +135,9 @@ class _TrendingPageState extends State<TrendingPage> {
                       Text(
                         "  All Time Fav Anime",
                         style: TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w200,
+                          fontSize: 21,
+                          fontFamily: 'Roboto',
+                          fontWeight: FontWeight.bold,
                           //   fontFamily: "Vonique",
                           color: Colors.white,
                         ),
@@ -139,9 +147,11 @@ class _TrendingPageState extends State<TrendingPage> {
                   Text(
                     "more",
                     style: TextStyle(
+                      fontFamily: 'Roboto',
+                      fontSize: 16,
                       //color: Color(0xffB22222),
                       color: Color(0xff4B0082),
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ],

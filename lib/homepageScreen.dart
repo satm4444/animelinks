@@ -23,9 +23,9 @@ class _HomepageScreenState extends State<HomepageScreen> {
               ),
               onPressed: () {},
               iconSize: 27,
-              color: Color(0xffB22222),
+              //color: Color(0xffB22222),
               //color: Color(0xffFF4500)
-              // color: Color(0xff4B0082),
+              color: Color(0xff4B0082),
             )
           ],
           backgroundColor: Colors.black,
@@ -71,6 +71,7 @@ class _HomepageScreenState extends State<HomepageScreen> {
                     child: Text(
                       "TRENDING",
                       style: TextStyle(
+                        fontFamily: 'Roboto',
                         fontWeight: FontWeight.w300,
                         //   fontFamily: "Vonique",
                         fontSize: 12,

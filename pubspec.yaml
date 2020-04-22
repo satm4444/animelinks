@@ -46,6 +46,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
      - assets/loading.jpg
+     - assets/arrowyes.png
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -60,9 +61,9 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-     - family: Oranges
+     - family: Roboto
        fonts:
-         - asset: assets/orange-juice.ttf
+         - asset: assets/RobotoCondensed-Light.ttf
        # - asset: fonts/Schyler-Italic.ttf
         
      - family: Vonique
