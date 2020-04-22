@@ -50,8 +50,9 @@ class _AnimeScreenState extends State<AnimeScreen> {
     selectedDes = routeArgs['desc'];
     selectedImage = routeArgs['imag'];
     return Scaffold(
-      backgroundColor: Colors.white,
-      //backgroundColor: Color(0xff404040),
+      backgroundColor:
+          //Colors.white,
+          Color(0xff404040),
       body: Stack(
         children: <Widget>[
           Container(
@@ -101,7 +102,7 @@ class _AnimeScreenState extends State<AnimeScreen> {
             ),
           ),
           Positioned(
-            top: 93,
+            top: 98,
             left: 20,
             child: ClipRRect(
               borderRadius: BorderRadius.circular(7),
@@ -153,20 +154,23 @@ class _AnimeScreenState extends State<AnimeScreen> {
                     height: 90,
                     width: 360,
                     // color: Colors.white,
-                    //Color(0xff404040),
+                    // Color(0xff404040),
                     decoration: BoxDecoration(
-                      border: Border.all(color: Colors.black, width: 1),
-                      color: Colors.white,
+                      border: Border.all(
+                          color: Colors.black.withOpacity(0.3), width: 3),
+                      // color: Colors.white,
+                      color: Color(0xff404040),
                     ),
                     child: Padding(
                       padding:
-                          const EdgeInsets.only(left: 20.0, right: 20, top: 15),
+                          const EdgeInsets.only(left: 20.0, right: 20, top: 9),
                       child: Text(
                         selectedDes,
                         style: TextStyle(
                             fontFamily: 'Roboto',
-                            color: Colors.black,
-                            //Colors.white.withOpacity(.5),
+                            color:
+                                //Colors.black,
+                                Colors.white.withOpacity(.5),
                             //Color(0xff989898),
                             fontSize: 14,
                             fontWeight: FontWeight.bold),
